@@ -1,0 +1,76 @@
+.container {
+    background-color: darkred;
+    max-width: 600px;
+    border-radius: 2rem;
+    color: white;
+    
+}
+
+.logo-container {
+    
+}
+
+.app {
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+.display {
+    background-color: darkslategrey;
+    text-align: right;
+    font-size: 2rem;
+    width: 90%;
+    border-radius: 0.5rem;
+}
+
+.numpad {
+    display: flex;
+    flex-direction: row;
+}
+
+.specs-nums-btns {
+    width: 75%; 
+    display: flex;
+}
+
+.specials-container {
+    
+}
+
+.numbers-container {
+    flex-wrap: wrap;
+    
+}
+
+.operators-container {
+    flex-direction: column;
+    width: 25%;
+}
+
+button {
+    border-radius: 50%;
+    box-shadow: 2px black;
+    width: 55px;
+    height: 55px;
+    color: white;
+}
+
+.special-button {
+    background-color: blue;
+    font-size: 2rem;
+}
+
+.number-button {
+    background-color: navy;
+    font-size: 2rem;
+}
+
+.operator-button {
+    background-color: lightslategrey;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+
+
